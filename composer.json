@@ -1,0 +1,41 @@
+{
+    "name": "masoud4/env-loader",
+    "description": "A simple and robust PHP library for loading environment variables from .envs files into $_ENV, $_SERVER, and putenv().",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "env",
+        "environment",
+        "loader",
+        "config",
+        "dotenv",
+        "php",
+        "configuration"
+    ],
+    "homepage": "https://github.com/Masoud4/env-loader",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "masoud4\\Env\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Masoud4",
+            "email": "ashrafianpur.masoud@gmail.com",
+            "homepage": "https://your-personal-website.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0 || ^11.0"
+    }
+}
