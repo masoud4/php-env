@@ -1,5 +1,5 @@
 {
-    "name": "masoud4/env-loader",
+    "name": "masoud4/php-env",
     "description": "A simple and robust PHP library for loading environment variables from .envs files into $_ENV, $_SERVER, and putenv().",
     "type": "library",
     "license": "BSD-3-Clause",
